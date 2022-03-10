@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins';
+}
+#subtitle{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#color{
+    color: rgb(255, 185, 55);
+}
+.button{
+    background-color: rgb(255, 185, 55);
+    border: 1px solid rgb(255, 176, 30);
+    height: 30px;
+    width: 150px;
+}
+.button:hover{
+    background-color: rgb(255, 115, 0);
+}
+canvas{
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+canvas:hover{
+    cursor: crosshair;
+}
+@keyframes myAnimation{
+    from{
+        border: 3px solid rgb(255, 82, 82);
+    }
+    to{
+        border: 3px solid rgb(255, 137, 82);
+    }
+}
+.nav{
+    height: 60px;
+    background-color: rgb(255, 219, 58);
+    margin-top: -24px;
+    
+}
+.nav p{
+    line-height: 60px;
+}
+#new_task{
+    float: left;
+    margin-left: 376px;
+}
+#count_down{
+    margin-right: 100px;
+}
